@@ -1,5 +1,7 @@
 using System;
-
+namespace OopsConcept.Encapsulation
+{
+    
 class BankAccount
 {
     private string accountNumber;
@@ -42,14 +44,16 @@ class BankAccount
 
 class Program
 {
-    static void Main()
-    {
-        BankAccount account = new BankAccount("123456789", 1000);
-        Console.WriteLine("Account Number: " + account.AccountNumber);
-        Console.WriteLine("Current Balance: " + account.Balance);
-        account.Deposit(500);
-        Console.WriteLine("New Balance after deposit: " + account.Balance);
-        account.Withdraw(200);
-        Console.WriteLine("New Balance after withdrawal: " + account.Balance);
-    }
+    //static void Main()
+    //{
+    //    BankAccount account = new BankAccount("123456789", 1000);
+    //    Console.WriteLine("Account Number: " + account.AccountNumber);
+    //    Console.WriteLine("Current Balance: " + account.Balance);
+    //    account.Deposit(500);
+    //    Console.WriteLine("New Balance after deposit: " + account.Balance);
+    //    account.Withdraw(200);
+    //    Console.WriteLine("New Balance after withdrawal: " + account.Balance);
+    //}
+}
+
 }

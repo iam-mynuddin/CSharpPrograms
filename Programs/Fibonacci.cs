@@ -1,10 +1,10 @@
 using System;
 
-class Program
+static class Fibonacci
 {
-	static void Main()
+	public static void PrintFibonacci(int upto)
 	{
-		int n = 10; // Number of terms
+		int n = upto; // Number of terms
 		int first = 0, second = 1;
 
 		Console.WriteLine("Fibonacci Series:");
