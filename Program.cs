@@ -2,6 +2,7 @@
 using Collections;
 using Conversions;
 using LeetCodeChallenges;
+using Programs;
 internal class Program
 {
     private static void Main(string[] args)
@@ -16,7 +17,8 @@ internal class Program
 
         #region Programs
         //Prime
-        //Console.WriteLine(IsPrime.IsPrimeNumber(101));
+        //PrimeNumber.Run(7);
+        //Calculator.Run();
         #endregion
         #region Algorithms
         // int[] sortedIntArray = [1, 2, 3, 5, 11, 18, 57, 58, 59, 67];
@@ -24,7 +26,8 @@ internal class Program
         #endregion
 
         #region LeetCode
-        Problem20.Run();
+        //Problem20.Run();
+        Problem27.Run();
         #endregion
 
     }

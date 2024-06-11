@@ -1,17 +1,18 @@
-// using System;
+using System;
+namespace Programs
+{
 
-// class Factorial
-// {
-//     static void Main()
-//     {
-//         int n = 5; // Example number
-//         int factorial = 1;
+    public static class Factorial
+    {
+        public static void Run(int intInput)
+        {
+            double result=1;
+            for(int i=2;i<=intInput;i++)
+            {
+                result*=i;
+            }
+            Console.WriteLine("Factorial of "+intInput+" is "+result);
+        }
+    }
 
-//         for (int i = 1; i <= n; i++)
-//         {
-//             factorial *= i;
-//         }
-
-//         Console.WriteLine("Factorial of " + n + " is: " + factorial);
-//     }
-// }
+}
