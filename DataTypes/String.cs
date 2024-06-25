@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CSharpPrograms.DataTypes
 {
-    public static class IntegerExample
+    public static class StringExample
     {
         
     }

@@ -1,5 +1,5 @@
 using System;
-namespace OopsConcept.Polymorphism
+namespace OOPS
 {
     
 class Animal
@@ -26,18 +26,34 @@ class Cat : Animal
     }
 }
 
-class Program
+static class Polymorphism
 {
-    //static void Main()
-    //{
-    //    Animal animal1 = new Animal();
-    //    Animal animal2 = new Dog();
-    //    Animal animal3 = new Cat();
+    public static void Run()
+    {
+       Animal animal1 = new Animal();
+       Animal animal2 = new Dog();
+       Animal animal3 = new Cat();
 
-    //    animal1.MakeSound();
-    //    animal2.MakeSound();
-    //    animal3.MakeSound();
-    //}
+       animal1.MakeSound();
+       animal2.MakeSound();
+       animal3.MakeSound();
+    }
+}
+
+class A
+{
+  public virtual void Write()
+  {
+    Console.WriteLine("Run from class A");
+  }
+}
+
+class B:A
+{
+    public override void Write()
+    {
+        Console.WriteLine("Run from class B");
+    }
 }
 
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CSharpPrograms.DataTypes
+namespace CSharpPrograms.DesignPatterns.Creational
 {
-    public static class IntegerExample
+    public class Prototype
     {
         
     }
