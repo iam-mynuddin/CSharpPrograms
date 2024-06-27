@@ -3,7 +3,7 @@ namespace DataStructures
     public class Node
     {
         public int Data;
-        public Node? Next;
+        public Node Next;
         public Node(int data)
         {
             Data = data;
@@ -12,7 +12,7 @@ namespace DataStructures
     }
     public class LinkedList
     {
-        private Node? head;
+        private Node head;
 
         public LinkedList()
         {
@@ -74,7 +74,7 @@ namespace DataStructures
         // Print the list
         public void PrintList()
         {
-            Node? current = head;
+            Node current = head;
             while (current != null)
             {
                 Console.Write(current.Data + " -> ");
