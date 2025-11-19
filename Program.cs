@@ -50,7 +50,8 @@ internal class Program
 
 
 		//BubbleSort.Run(intArray, arrSize);
-		SelectionSort.Run(intArray, arrSize);
+		//SelectionSort.Run(intArray, arrSize);
+		InsertionSort.Run(intArray, arrSize);
 		#endregion
 
 		#region LeetCode
