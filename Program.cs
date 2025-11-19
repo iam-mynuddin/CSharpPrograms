@@ -49,7 +49,8 @@ internal class Program
 		}
 
 
-		BubbleSort.Run(intArray, arrSize);
+		//BubbleSort.Run(intArray, arrSize);
+		SelectionSort.Run(intArray, arrSize);
 		#endregion
 
 		#region LeetCode
